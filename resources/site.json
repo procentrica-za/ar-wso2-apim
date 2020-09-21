@@ -70,4 +70,3 @@
   "mapExistingAuthApps" : false,
   "whiteListedHostNames" : ["localhost", "api.studymoney.co.za"]
 }
-
