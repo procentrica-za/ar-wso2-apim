@@ -62,12 +62,12 @@
 
 
   "reverseProxy" : {
-    "enabled" : false,    // values true , false , "auto" - will look for  X-Forwarded-* headers
-    "host" : "localhost:9443", // If reverse proxy do not have a domain name use IP
+    "enabled" : true,    // values true , false , "auto" - will look for  X-Forwarded-* headers
+    "host" : "api.studymoney.co.za", // If reverse proxy do not have a domain name use IP
     "context":"/store"
     //"regContext":"" // Use only if different path is used for registry
   },
   "mapExistingAuthApps" : false,
-  "whiteListedHostNames" : ["localhost", "api.assetregister.co.za"]
+  "whiteListedHostNames" : ["localhost", "api.studymoney.co.za"]
 }
 
