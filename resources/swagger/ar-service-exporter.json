@@ -1,0 +1,1 @@
+{"swagger":"2.0","paths":{"/assetregister":{"get":{"responses":{"200":{"description":""}},"parameters":[{"name":"assetid","in":"query","required":true,"type":"string"}],"x-auth-type":"Application & Application User","x-throttling-tier":"Unlimited"}}},"info":{"title":"ar-service-exporter","version":"v1.0","description":"This service deals with exporting asset information"}}
